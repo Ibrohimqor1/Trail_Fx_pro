@@ -1,0 +1,81 @@
+.head{
+    overflow-wrap: scroll;
+    padding: 5px;
+    margin-top: 77px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background-color: rgb(234, 233, 233);
+    .card1{
+        width: 100%;
+        border-radius: 8px;
+        text-align:start;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        .head__card1__h5{
+            padding-top: 8px;
+            font-size: 12px;
+        }
+        .head__card1__img{
+            width: 45px;
+        }
+    }
+}
+.carousel{
+
+    border-radius: 10px;
+
+        .carousel__img{
+            border-radius: 10px;
+        }
+}
+
+.vvv{
+    font-weight: 900;
+    color: red;
+}
+@media only screen and (max-width: 650px) {
+    .container{
+        width: 100%;
+    }
+    .carousel__img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .head{
+        overflow-x: scroll;
+        padding: 5px;
+        margin-top: 77px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(234, 233, 233);
+        .card1{
+            padding-left:10px;
+            padding-right:10px;
+            text-align:start;
+            align-items: center;
+            display: flex;
+            gap: 10px;
+            .head__card1__h5{
+                padding-top: 8px;
+                font-size: 10px;
+            }
+            .head__card1__img{
+                width: 25px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1005px) {
+    .head{
+        display: none;
+    }
+    .carousel{
+        margin-top: 90px;
+    }
+}

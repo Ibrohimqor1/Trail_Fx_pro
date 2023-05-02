@@ -1,0 +1,57 @@
+.dd{
+   padding: 90px;
+    width: 100%;
+}
+.header__img{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .header__img__2{
+        width: 350px;
+    }
+    .header__texts{
+        margin-top: 150px;
+        .header__texts__h1{
+            color: rgb(196, 17, 17);
+            font-weight: 600;
+        }
+        .header__texts__p{
+            padding-top: 30px;
+        }
+        .header__btn{
+            width: 200px;
+            height: 40px;
+            color: white;
+            border: none;
+            background-color: rgb(71, 71, 71);
+            border-radius: 15px;
+            transition: 0.2s;
+        }
+        .header__btn:hover{
+            width: 200px;
+            height: 40px;
+            color: white;
+            border: none;
+            background-color: rgb(238, 53, 53);
+            border-radius: 15px;
+            transition: 0.2s;
+        }
+    }
+}
+.header_pages_1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+
+    .header_pages{  
+
+
+            img{
+                border-radius: 20px;
+                width: 600px;
+            }
+    }
+}

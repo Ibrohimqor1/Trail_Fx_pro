@@ -1,0 +1,61 @@
+.texts{
+    margin-top: 150px;
+}
+.airdopes__slider{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        .airdopes__slider__card{
+            padding: 10px;
+            width: 250px;
+            border-radius: 15px;
+                .airdopes__slider__card__img{
+                    width: 100%;
+                    border-top-right-radius: 15px;
+                    border-top-left-radius: 15px;
+                }
+                .airdopes__slider__card__h1{
+                    text-align: center;
+                    color: black;
+                    font-weight: 500;
+                }
+                .airdopes__slider__card__h1:hover{
+                    text-align: center;
+                    color: red;
+                }
+        }
+}
+@media only screen and (max-width: 978px) {
+    .texts{
+
+            .texts__h1{
+                font-size: 25px;
+            }
+            .textss__p{
+                font-size: 13px;
+            }
+            
+    }
+    .airdopes__slider{
+
+        .airdopes__slider__card{
+
+            .airdopes__slider__card__h1{
+                text-align: center;
+                color: black;
+                font-size: 10px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    .texts{
+
+            .texts__h1{
+                font-size: 20px;
+            }
+            .textss__p{
+                font-size: 10px;
+            }
+    }
+}

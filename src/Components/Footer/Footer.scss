@@ -1,0 +1,137 @@
+.footer__1{
+    margin-top: 20px;
+    background-color: black;
+    .footer__1__p{
+        text-align: center;
+        align-items: center;
+        color: aliceblue;
+        padding: 10px;
+    }
+}
+.footer_bottom1{
+   
+
+}
+.footer_bottom1 input{
+    width: 280px;
+    height: 60px;
+    border: 1px solid rgb(196, 17, 17);
+    border-radius: 30px;
+    padding-left: 20px;
+    z-index: 0;
+
+}
+.footer_bottom1 button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgb(196, 17, 17);
+    border-radius: 30px;
+    z-index:99;
+    margin-left: -130px;
+    background-color: rgb(196, 17, 17);
+    color: white;
+    margin-top: 10px;
+}
+.input_btn{
+    display: flex;
+}
+.Footeer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Footeer{
+    display: flex;
+    justify-content: space-between;
+        .footer_bottom2__h1{
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+        .footer-pp{
+            display: flex;
+            gap: 60px;
+            text-align: start;
+
+                .footer_p{
+                    margin-top: 20px;
+                    li{
+                        
+                        font-size: 15px;
+                        list-style: none;
+                    }
+                }
+        }
+
+}
+.footer3{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.img_footer{
+    transition: 0.1s;
+}
+.img_footer:hover{
+    margin-top: -10px;
+}
+
+
+
+
+@media only screen and (max-width: 1400px) {
+    .Footeer{
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+            .footer-pp{
+                display: flex;
+            }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .Footeer{
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+            .footer-pp{
+                display: flex;
+            }
+    }
+}
+@media only screen and (max-width: 990px) {
+    .Footeer{
+        text-align: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+            .input_btn{
+                justify-content: center;
+            }
+            .footer-pp{
+                display: flex;
+                justify-content: center;
+            }
+    }
+    .footer3{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .footer__1{
+
+
+            .footer__1__p{
+                font-size: 9px;
+            }
+    }
+    .footer{
+         justify-content: space-between;
+        .img_footer img{
+            width: 30px;
+        }
+    }
+}

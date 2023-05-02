@@ -1,0 +1,114 @@
+.head__imgs {
+  margin-top: 90px;
+  justify-content: space-evenly;
+  display: flex;
+  .head__imgs__p {
+    margin-top: 150px;
+    font-size: 13px;
+    color: rgb(85, 84, 84);
+    font-weight: 600;
+  }
+  .head__imgs__2 {
+    width: 500px;
+  }
+}
+.head__images__2 {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+  .head__images__1 {
+    width: 700px;
+    border-radius: 20px;
+  }
+  .head__images__2 {
+    width: 500px;
+    border-radius: 15px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .head__images__2 {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+    .head__images__1 {
+      width: 500px;
+      border-radius: 20px;
+    }
+    .head__images__2 {
+      width: 400px;
+      border-radius: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .head__imgs {
+    margin-top: 90px;
+    justify-content: center;
+    display: flex;
+    .head__imgs__p {
+      margin-top: 150px;
+      font-size: 8px;
+      color: rgb(85, 84, 84);
+      font-weight: 600;
+    }
+    .head__imgs__2 {
+      width: 400px;
+    }
+  }
+  .head__images__2 {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 30px;
+
+    .head__images__1 {
+      width: 300px;
+      border-radius: 20px;
+    }
+    .head__images__2 {
+      width: 300px;
+      border-radius: 15px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .head__imgs {
+    margin-top: 90px;
+    justify-content: center;
+    display: block;
+    .head__imgs__p {
+      text-align: center;
+      margin-top: 150px;
+      font-size: 8px;
+      color: rgb(85, 84, 84);
+      font-weight: 600;
+    }
+    .head__imgs__2 {
+      width: 100%;
+    }
+  }
+  .head__images__2{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+        .head__images__1{
+            width: 100%;
+            border-radius: 20px;
+        }
+        .head__images__2{
+            width: 100%;
+            border-radius:15px ;
+        }
+}
+}
